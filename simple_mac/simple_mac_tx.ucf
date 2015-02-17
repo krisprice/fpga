@@ -1,0 +1,5 @@
+NET "mclk" LOC = "B8";
+NET "mclk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "led" LOC = "G1";
+NET "td_p" LOC = "B2" | IOSTANDARD = LVCMOS25;
+NET "td_n" LOC = "A3" | IOSTANDARD = LVCMOS25;
